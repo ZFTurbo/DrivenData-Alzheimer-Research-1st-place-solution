@@ -20,14 +20,21 @@ All r*.py files must be run one by one. All intermediate folders will be created
 
 ### Only inference part
 
+To run inference you need the following: 
+* Download [Test Set from DrivenData website](https://community.drivendata.org/t/solutions-postings/4852) and put in in `../input/` folder.
+* Download [trained weights (~1 GB)](https://github.com/ZFTurbo/DrivenData-Alzheimer-Research-1st-place-solution/releases/download/v1.0.0/net_v20_d121_only_tier1_finetune_r31_train_3D_model_dn121.py_kfold_split_large_v2_5_42.zip) and unzip them in `../models/` folder 
+
+After that you can run following code:
 ```
 python preproc_data/r01_extract_roi_parts.py test
 python net_v20_d121_only_tier1_finetune/r42_process_test.py
 ```
 
-There is file run_inference.sh - which do all the stuff including pip installation of required modules etc.
+There is also file run_inference.sh - which do all the stuff including pip installation of required modules etc.
 
 ### Full pipeline including training of models
+
+To run training you need to download [all data from DrivenData website](https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/data/)  and put in in `../input/` folder. 
 
 ```
 python3 preproc_data/r01_extract_roi_parts.py
@@ -50,11 +57,16 @@ export PYTHONPATH="$PYTHONPATH:/var/test_alzheimer/"
 
 After you run inference or train final submission file will be located in ../subm/submission.csv file.
 
+
 ## Related repositories
 
 Two useful parts of code, created for this project, were released as separate modules:
 * [Classification models 3D](https://github.com/ZFTurbo/classification_models_3D)
 * [Volumentations](https://github.com/ZFTurbo/volumentations)
+
+## Visualization
+
+
 
 ## Solution description
 
