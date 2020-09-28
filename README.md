@@ -66,7 +66,7 @@ Two useful parts of code, created for this project, were released as separate mo
 
 ## Visualization
 
-
+[![Alzheimer’s Research competition (what neural net sees) (Demo)](https://raw.githubusercontent.com/ZFTurbo/DrivenData-Alzheimer-Research-1st-place-solution/master/images/Youtube.jpg)](https://www.youtube.com/watch?v=k7s5DCzvKj8)
 
 ## Solution description
 
