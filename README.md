@@ -71,6 +71,6 @@ Two useful parts of code, created for this project, were released as separate mo
 
 ## Solution description
 
-* [Some description on DrivenData](https://www.drivendata.co/blog/clog-loss-alzheimers-winners/)
+* [Small description on DrivenData](https://www.drivendata.co/blog/clog-loss-alzheimers-winners/)
 * [Discussion on forum](https://community.drivendata.org/t/solutions-postings/4852)
 * Arxiv paper (later)
