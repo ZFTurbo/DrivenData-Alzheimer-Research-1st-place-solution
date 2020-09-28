@@ -48,14 +48,15 @@ python3 net_v20_d121_only_tier1_finetune/r42_process_test.py
 
 There is file run_train.sh - which do all the stuff including pip installation of required modules etc.
 
-You need to change run_inference.sh and run_train.sh for your environment:
+You need to change `run_inference.sh` and `run_train.sh` for your environment:
 
 Change this variable to location of your python (Anaconda)
-export PATH="/var/anaconda3-temp/bin/"
-Change this variable to location of your code
-export PYTHONPATH="$PYTHONPATH:/var/test_alzheimer/"
+* `export PATH="/var/anaconda3-temp/bin/"`
 
-After you run inference or train final submission file will be located in ../subm/submission.csv file.
+Change this variable to location of your code
+* `export PYTHONPATH="$PYTHONPATH:/var/test_alzheimer/"`
+
+After you run inference or train final submission file will be located in `../subm/submission.csv` file.
 
 
 ## Related repositories
