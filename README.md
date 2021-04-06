@@ -1,5 +1,21 @@
 Repository contains 1st place solution for [Clog Loss: Advance Alzheimer’s Research with Stall Catchers](https://www.drivendata.org/competitions/65/clog-loss-alzheimers-research/) competition organized by DrivenData. 
 
+## Citation
+
+For more details, please refer to the [paper](https://arxiv.org/abs/2104.01687).
+
+If you are using the results and code of this work, please cite it as:
+```
+@InProceedings{RSolovyev_2021_stalled,
+  author = {Solovyev, Roman and Kalinin, Alexandr A. and Gabruseva, Tatiana},
+  title = {3D Convolutional Neural Networks for Stalled Brain Capillary
+Detection},
+  booktitle = {Arxiv: 2104.01687},
+  month = {April},
+  year = {2021}
+}
+```
+
 ## Software Requirements
 
 * Main requirements: Python 3.5+, keras 2.2+, Tensorflow 1.13+
@@ -73,4 +89,4 @@ Two useful parts of code, created for this project, were released as separate mo
 
 * [Small description on DrivenData](https://www.drivendata.co/blog/clog-loss-alzheimers-winners/)
 * [Discussion on forum](https://community.drivendata.org/t/solutions-postings/4852)
-* Arxiv paper (later)
+* [Arxiv paper](https://arxiv.org/abs/2104.01687)
