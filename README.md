@@ -8,8 +8,7 @@ If you are using the results and code of this work, please cite it as:
 ```
 @InProceedings{RSolovyev_2021_stalled,
   author = {Solovyev, Roman and Kalinin, Alexandr A. and Gabruseva, Tatiana},
-  title = {3D Convolutional Neural Networks for Stalled Brain Capillary
-Detection},
+  title = {3D Convolutional Neural Networks for Stalled Brain Capillary Detection},
   booktitle = {Arxiv: 2104.01687},
   month = {April},
   year = {2021}
